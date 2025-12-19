@@ -226,15 +226,18 @@ export const projects = [
    {
     id: 1,
     title: "Proactive",
-    category: "Machine Learning",
+    category: " Web Application",
     description:
-      "A machine learning-based web application recommending medicines based on user-input symptoms.",
-    role: "ML & Web Developer",
+      "Proactive is an AI-powered productivity SaaS built on the MERN stack that helps users manage tasks, track time, and gain intelligent insights into their work patterns. By leveraging machine learning, the platform analyzes user activity to generate goal-based recommendations and actionable AI insights that improve focus and productivity.",
+    role: "Web & Backend Developer",
     techStack: [
-      "Python",
-      "Machine Learning",
-      "HTML",
-      "CSS",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Express.js",
+      "tailwind CSS",
+
       "JavaScript",
     ],
     image: "/assets/Poactive.png",
@@ -247,7 +250,7 @@ export const projects = [
     title: "FoodHub",
     category: "Web Application",
     description:
-      "A modern web platform that allows users to visually explore and interact with content through an intuitive and responsive UI.",
+    "FoodHub is a full-stack web application that enables users to discover, explore, and interact with food content through a clean, intuitive, and responsive interface. The platform supports dynamic content rendering",
     role: "Frontend & Backend Developer",
     techStack: [
       "React.js",
@@ -260,43 +263,48 @@ export const projects = [
     github_link:"[https://github.com/Lokeshkumar-0806/FoodHub,https://github.com/Lokeshkumar-0806/FoodHubBackend]",
   },
   {
-    id: 3,
-    title: "Customer Behavior Dashboard",
-    category: "Data Analytics",
-    description:
-      "An interactive Power BI dashboard analyzing customer shopping behavior using Python and SQL.",
-    role: "Data Analyst",
-    techStack: [
-      "Python",
-      "SQL",
-      "Jupyter Notebook",
-      "Power BI",
-    ],
-    image: "/assets/CustomerBehavior.png",
-    git_hub_link:"[https://github.com/Lokeshkumar-0806/Customer-Behavior-Dashboard]",
-  },
+  id: 3,
+  title: "Customer Behavior Dashboard",
+  category: "Data Analytics",
+  description:
+    "Designed and developed an interactive Power BI dashboard to analyze customer shopping behavior and purchasing patterns. Used Jupyter Notebook to connect Python with SQL for data extraction, cleaning, and transformation of transactional datasets. Created visuals and KPIs in Power BI to monitor sales performance, customer segmentation, and revenue trends. Delivered actionable insights that supported data-driven business decision-making.",
+  role: "Data Analyst",
+  techStack: [
+    "Python",
+    "SQL",
+    "Jupyter Notebook",
+    "Power BI",
+  ],
+  image: "/assets/CustomerBehavior.png",
+  github_link: "https://github.com/Lokeshkumar-0806/Customer-Behavior-Dashboard",
+},
+
  
 
 
     {
-    id: 4,
-    title: "Eventopedia App",
-    category: "Mobile Application",
-    description:
-      "A cross-platform mobile application integrating carbon removal technology with digital advertising and real-time booking workflows.",
-    role: "Full Stack Developer",
-    techStack: [
-      "React Native (Expo)",
-      "AWS Lambda",
-      "AWS S3",
-      "PostgreSQL",
-      "AWS CloudFormation",
-    ],
-    image: "/assets/Eventopedia.png",
-    live_link:"https://expo.dev/accounts/lokeshkumar88/projects/Eventopedia",
-    github_link:"[https://github.com/Lokeshkumar-0806/Eventopedia ,https://github.com/Lokeshkumar-0806/backendEvent] ",
-    figma_link:"https://www.figma.com/design/3VYz2dsOTtauMymnrDKpDX/Eventopedia?node-id=91-2107"
-  },
+  id: 4,
+  title: "Eventopedia App",
+  category: "Mobile Application",
+  description:
+    "Designed and developed a mobile application for managing music events, including event booking details and admin management. Built using React Native (Expo), Node.js, Express.js, MongoDB, and Tailwind CSS for a modern and responsive UI. Implemented booking system workflows, event data handling, and secure admin access.",
+  techStack: [
+    "React Native (Expo)",
+    "AWS Lambda",
+    "AWS S3",
+    "PostgreSQL",
+    "AWS CloudFormation",
+  ],
+  image: "/assets/Eventopedia.png",
+  live_link: "https://expo.dev/accounts/lokeshkumar88/projects/Eventopedia",
+  github_link: [
+    "https://github.com/Lokeshkumar-0806/Eventopedia",
+    "https://github.com/Lokeshkumar-0806/backendEvent"
+  ],
+  figma_link:
+    "https://www.figma.com/design/3VYz2dsOTtauMymnrDKpDX/Eventopedia?node-id=91-2107"
+}
+
 ];
 
 /* =========================

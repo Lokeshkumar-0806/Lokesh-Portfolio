@@ -23,13 +23,17 @@ const ProjectCard = ({ project }) => {
 
   // Handle GitHub links (array or string)
   let githubLinks = [];
-  if (github_link && github_link.startsWith("[")) {
+  if (Array.isArray(github_link)) {
+    githubLinks = github_link;
+  } else if (github_link && typeof github_link === "string" && github_link.startsWith("[")) {
     githubLinks = github_link.replace(/\[|\]|\s/g, "").split(",");
-  } else if (git_hub_link && git_hub_link.startsWith("[")) {
-    githubLinks = git_hub_link.replace(/\[|\]|\s/g, "").split(",");
-  } else if (github_link) {
+  } else if (github_link && typeof github_link === "string") {
     githubLinks = [github_link];
-  } else if (git_hub_link) {
+  } else if (Array.isArray(git_hub_link)) {
+    githubLinks = git_hub_link;
+  } else if (git_hub_link && typeof git_hub_link === "string" && git_hub_link.startsWith("[")) {
+    githubLinks = git_hub_link.replace(/\[|\]|\s/g, "").split(",");
+  } else if (git_hub_link && typeof git_hub_link === "string") {
     githubLinks = [git_hub_link];
   }
 

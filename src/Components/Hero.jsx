@@ -59,7 +59,7 @@ const Hero = () => {
       ========================= */}
       <motion.div
         ref={imageRef}
-        className="relative mt-6 mb-8 cursor-pointer"
+        className="relative mt-24 mb-8 cursor-pointer"
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.95 }}
         transition={{ type: "spring", stiffness: 180 }}
